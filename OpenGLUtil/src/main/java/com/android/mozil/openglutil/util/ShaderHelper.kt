@@ -82,7 +82,7 @@ object ShaderHelper {
             //若链接失败则报错并删除程序
 
             if (linkStatus[0] != GLES20.GL_TRUE) {
-                Log.e(TAG, "Could not link program: ")
+                Log.e(TAG, "Could not link mProgram: ")
                 Log.e(TAG, GLES20.glGetProgramInfoLog(program))
                 GLES20.glDeleteProgram(program)
                 program = 0
@@ -111,7 +111,7 @@ object ShaderHelper {
             GLES20.glGetProgramiv(program, GLES20.GL_LINK_STATUS, linkStatus, 0)
             //若链接失败则报错并删除程序
             if (linkStatus[0] != GLES20.GL_TRUE) {
-                Log.e(TAG, "Could not link program: ")
+                Log.e(TAG, "Could not link mProgram: ")
                 Log.e(TAG, GLES20.glGetProgramInfoLog(program))
                 GLES20.glDeleteProgram(program)
                 program = 0

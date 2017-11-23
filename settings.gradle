@@ -1,1 +1,1 @@
-include ':HelloWorld', ':OpenGLUtil', ':Skybox', ':Light', ':Folding'
+include ':HelloWorld', ':OpenGLUtil', ':Skybox', ':Light', ':Firework'

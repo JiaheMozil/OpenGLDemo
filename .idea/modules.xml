@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Folding/Folding.iml" filepath="$PROJECT_DIR$/Folding/Folding.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Firework/Firework.iml" filepath="$PROJECT_DIR$/Firework/Firework.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/Light/Light.iml" filepath="$PROJECT_DIR$/Light/Light.iml" />
       <module fileurl="file://$PROJECT_DIR$/OpenGLDemo.iml" filepath="$PROJECT_DIR$/OpenGLDemo.iml" />

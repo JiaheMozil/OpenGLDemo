@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Folding" />
+            <option value="$PROJECT_DIR$/Firework" />
             <option value="$PROJECT_DIR$/HelloWorld" />
             <option value="$PROJECT_DIR$/Light" />
             <option value="$PROJECT_DIR$/OpenGLUtil" />

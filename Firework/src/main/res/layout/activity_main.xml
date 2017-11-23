@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.android.mozil.folding.MainActivity">
+    tools:context="com.android.mozil.firework.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"

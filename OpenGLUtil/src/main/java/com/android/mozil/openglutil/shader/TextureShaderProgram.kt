@@ -9,11 +9,11 @@ import android.opengl.GLES20.*
 class TextureShaderProgram(context: Context,vertexShaderResourceId: Int, fragmentShaderResourceId: Int) :
         ShaderProgram(context, vertexShaderResourceId, fragmentShaderResourceId) {
     //Uniform
-    val textureMatrixLocation: Int = glGetUniformLocation(program, U_MATRIX)
-    val textureUnitLocation: Int = glGetUniformLocation(program, U_TEXTURE_UNIT)
+    val textureMatrixLocation: Int = glGetUniformLocation(mProgram, U_MATRIX)
+    val textureUnitLocation: Int = glGetUniformLocation(mProgram, U_TEXTURE_UNIT)
     //Attribute locations
-    val positionAttributeLocation: Int = glGetAttribLocation(program, A_POSITION)
-//    val textureCoordinatesLocation: Int = glGetAttribLocation(program, A_TEXTURE_COORDINATES)
+    val positionAttributeLocation: Int = glGetAttribLocation(mProgram, A_POSITION)
+//    val textureCoordinatesLocation: Int = glGetAttribLocation(mProgram, A_TEXTURE_COORDINATES)
 
     fun setUniforms(matrix: FloatArray, textureId: Int, targetTexture: Int) {
         glEnableVertexAttribArray(targetTexture)

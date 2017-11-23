@@ -1,4 +1,4 @@
-package com.android.mozil.folding
+package com.android.mozil.firework
 
 import org.junit.Test
 

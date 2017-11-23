@@ -14,8 +14,8 @@ class ColorShaderProgram(context: Context,vertexShaderResourceId: Int, fragmentS
     val positionAttributeLocation: Int
 
     init {
-        uMatrixLocation = glGetUniformLocation(program, U_MATRIX)
-        positionAttributeLocation = glGetAttribLocation(program, A_POSITION)
+        uMatrixLocation = glGetUniformLocation(mProgram, U_MATRIX)
+        positionAttributeLocation = glGetAttribLocation(mProgram, A_POSITION)
     }
 
     fun setUniforms(matrix: FloatArray) {

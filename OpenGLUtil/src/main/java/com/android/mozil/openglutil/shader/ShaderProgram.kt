@@ -10,26 +10,26 @@ import com.android.mozil.openglutil.util.TextResourceReader
  */
 open class ShaderProgram(context: Context, vertexShaderResourceId: Int, fragmentShaderResourceId: Int) {
 
-    //Shader program
-    protected val program: Int
+    //Shader mProgram
+    protected val mProgram: Int
 
     fun useProgram() {
-        GLES20.glUseProgram(program)
+        GLES20.glUseProgram(mProgram)
     }
 
     //Uniform constants
-    protected val U_MATRIX = "u_Matrix"
-    protected val U_TEXTURE_UNIT = "u_TextureUnit"
-    protected val U_COLOR = "u_Color"
+    protected val U_MATRIX = "uMatrix"
+    protected val U_TEXTURE_UNIT = "uTextureUnit"
+    protected val U_COLOR = "uColor"
 
     //Attribute constants
-    protected val A_POSITION = "a_Position"
-    protected val A_COLOR = "a_Color"
-    protected val A_TEXTURE_COORDINATES = "a_TextureCoordinates"
+    protected val A_POSITION = "aPosition"
+    protected val A_COLOR = "aColor"
+    protected val A_TEXTURE_COORDINATES = "aTextureCoordinates"
 
 
     init {
-        program = ShaderHelper.buildProgram(TextResourceReader.readTextFileFromResource(context, vertexShaderResourceId), TextResourceReader.readTextFileFromResource(context, fragmentShaderResourceId))
+        mProgram = ShaderHelper.buildProgram(TextResourceReader.readTextFileFromResource(context, vertexShaderResourceId), TextResourceReader.readTextFileFromResource(context, fragmentShaderResourceId))
     }
 
 }
