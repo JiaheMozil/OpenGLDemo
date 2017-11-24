@@ -5,7 +5,7 @@ android {
     compileSdkVersion 26
 
     defaultConfig {
-        applicationId "com.android.mozil.folding"
+        applicationId "com.android.mozil.firework"
         minSdkVersion 23
         targetSdkVersion 26
         versionCode 1
