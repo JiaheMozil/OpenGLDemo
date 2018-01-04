@@ -8,3 +8,14 @@
 /captures
 .externalNativeBuild
 /.idea/
+.idea/
+.project
+.classpath
+.project.properties
+gen/
+.idea/
+.gradle/
+local.properties
+gradle/
+build/
+gradlew*
